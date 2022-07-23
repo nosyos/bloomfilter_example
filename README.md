@@ -29,3 +29,7 @@ help
 
 ## Issues  
 If you have any issue, please report here or PR.
+
+## References
+
+https://medium.com/coinmonks/ethereum-under-the-hood-part-8-blocks-2-5fba93293213
