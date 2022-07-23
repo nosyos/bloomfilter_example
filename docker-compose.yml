@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  bloomfilter_example:
+    container_name: bloomfilter_example
+    build: ./
+    volumes:
+      - ./app:/app
+    tty: true
+    environment:
+      TZ: Asia/Tokyo
+    command: /bin/sh -c "while :; do sleep 10; done"
+    networks:
+      default:
